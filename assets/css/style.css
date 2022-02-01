@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+body {
+    width: 100vw;
+    overflow-y: auto;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(../images/bg_4x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    overflow-x: hidden !important;
+}
+
+a {
+    color: rgb(104, 106, 107) !important;
+}
+
+.first-text {
+    margin-top: 48%;
+    overflow-x: hidden;
+}
+
+.light-blue {
+    color: #5bc4ec;
+}
+
+.blue {
+    color: rgb(69, 90, 162) !important;
+}
+
+.helv {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100 !important;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-circle {
+    color: orange !important;
+    padding-right: 5px;
+}
+
+li {
+    padding: 12px 0;
+}
+
+.large {
+    font-size: 115%;
+}
+
+.info-graphic {
+    width: 100%;
+    height: auto;
+}
+
+.industry {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: rgba(235, 236, 235, 255);
+    width: 100vw;
+    background-image: url(../images/globe-mobile.png);
+    background-size: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+@media screen and (min-width:769px) {
+    .footer {
+        background-image: url(../images/globe-desktop.png);
+        background-size: 55%;
+    }
+}
+
+.footer p {
+    font-size: small;
+}
+
+.not-small {
+    font-size: 90% !important;
+}
+
+.footer-logo {
+    width: 60%;
+}
