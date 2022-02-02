@@ -51,18 +51,16 @@ li {
     font-size: 115%;
 }
 
-.info-graphic {
+.camerabanner {
     width: 100%;
     height: auto;
 }
 
-.industry {
-    width: 100%;
-    height: auto;
-}
+
 
 .footer {
     background-color: rgba(235, 236, 235, 255);
+    color: rgb(104, 106, 107) !important;
     width: 100vw;
     background-image: url(../images/globe-mobile.png);
     background-size: 100%;
