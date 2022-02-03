@@ -39,12 +39,12 @@ a {
 }
 
 .fa-circle {
-    color: orange !important;
+    color: #5bc4ec !important;
     padding-right: 5px;
 }
 
 li {
-    padding: 12px 0;
+    padding: 7px 0;
 }
 
 .large {
