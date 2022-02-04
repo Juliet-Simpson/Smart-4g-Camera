@@ -16,19 +16,30 @@ a {
 }
 
 .first-text {
-    margin-top: 48%;
+    margin-top: 50%;
     overflow-x: hidden;
 }
 
 @media screen and (min-width:576px) {
     .first-text {
-        margin-top: 43%;
+        margin-top: 45%;
 
     }
 }
 
 .light-blue {
     color: #5bc4ec;
+}
+
+.extra-large {
+    font-size: 400%;
+}
+
+@media screen and (max-width:992px) {
+    .extra-large {
+        font-size: 300%;
+    }
+
 }
 
 .blue {
