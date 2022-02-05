@@ -27,6 +27,55 @@ a {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .first-text {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (min-width: 1310px) {
+    .first-text {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .first-text {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .first-text {
+        margin-top: 65%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .first-text {
+        margin-top: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1830px) {
+    .first-text {
+        margin-top: 75%;
+    }
+}
+
+@media screen and (min-width: 1925px) {
+    .first-text {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (min-width: 2050px) {
+    .first-text {
+        margin-top: 85%;
+    }
+}
+
 .light-blue {
     color: #5bc4ec;
 }
@@ -39,7 +88,18 @@ a {
     .extra-large {
         font-size: 300%;
     }
+}
 
+@media screen and (min-width:900px) {
+    .title {
+        font-size: 4.5vw !important;
+    }
+}
+
+@media screen and (min-width:1950px) {
+    .title {
+        font-size: 4vw !important;
+    }
 }
 
 .blue {
@@ -78,13 +138,13 @@ li {
 
 .footer {
     background-color: rgba(235, 236, 235, 255);
-    color: rgb(104, 106, 107) !important;
     width: 100vw;
     background-image: url(../images/globe-mobile.png);
     background-size: 100%;
     height: fit-content;
     background-repeat: no-repeat;
     width: 100vw;
+    color: rgb(104, 106, 107) !important;
 }
 
 @media screen and (min-width:769px) {
@@ -94,12 +154,54 @@ li {
     }
 }
 
+
+@media screen and (min-width:400px) {
+    .footer {
+        padding-left: 30px !important;
+    }
+}
+
+@media screen and (min-width:450px) {
+    .footer {
+        padding-left: 38px !important;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .footer {
+        padding-left: 45px !important;
+    }
+}
+
 .footer p {
     font-size: small;
 }
 
 .not-small {
     font-size: 90% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .footer p {
+        font-size: 100%;
+    }
+
+    .not-small {
+        font-size: 130% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .links {
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .links {
+        font-size: 100%;
+    }
+
 }
 
 .footer-logo {
